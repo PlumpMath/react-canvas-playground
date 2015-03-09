@@ -1,0 +1,19 @@
+{
+  "name": "react-canvas-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "browserify -t babelify index.js > bundle.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babelify": "^5.0.4",
+    "browserify": "^9.0.3",
+    "react": "^0.13.0-rc2",
+    "react-canvas": "0.0.1",
+    "reactify": "^1.0.0",
+    "underscore": "^1.8.2"
+  }
+}
