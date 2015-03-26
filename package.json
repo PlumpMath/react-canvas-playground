@@ -9,11 +9,16 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "babel-eslint": "^1.0.14",
     "babelify": "^5.0.4",
     "browserify": "^9.0.3",
+    "eslint": "^0.11.0",
     "react": "^0.13.0-rc2",
     "react-canvas": "0.0.1",
     "reactify": "^1.0.0",
     "underscore": "^1.8.2"
+  },
+  "devDependencies": {
+    "uglify-js": "^2.4.17"
   }
 }
