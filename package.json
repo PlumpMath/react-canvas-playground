@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "browserify -t babelify index.js > bundle.js"
+    "build": "browserify -t babelify index.js | uglifyjs -mc > bundle.js"
   },
   "author": "",
   "license": "ISC",
